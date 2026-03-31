@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karnvendra Singh — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portfolio.css">
+
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a href="portfolio.html" class="brand" aria-label="Home">
+      <span class="brand-mark">KS</span>
+      <span>Karnvendra Singh</span>
+    </a>
+    <div class="nav-actions">
+      <ul class="nav-links">
+        <li><a href="portfolio.html#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certs">Certs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <span class="status-chip" aria-hidden="true"><span class="dot"></span>Open to opportunities</span>
+      <a href="contact.html" class="pill pill-primary">Let’s talk</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+        <span class="theme-toggle__label" id="themeToggleLabel">Dark</span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="hero-kicker">Portfolio</p>
+      <h1 class="hero-name">Karnvendra Singh</h1>
+      <p class="hero-role">3rd-year B.Tech CSE · Minor in Data Science</p>
+      <p class="hero-bio">
+        I build with Python ML models and React front ends — curious about data that moves welfare policy and helps businesses see what’s next.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="pill pill-primary">View selected work</a>
+        <a href="./kvps.pdf" class="link-arrow" download="Resume.pdf">View Resume →</a>
+        <a href="#about" class="link-arrow">About me →</a>
+        <a href="contact.html" class="link-arrow">Contact →</a>
+      </div>
+    </div>
+
+    <aside class="bento" aria-label="Highlights">
+      <div class="bento-card span-2">
+        <div class="bento-label">At a glance</div>
+        <div class="bento-stats">
+          <div>
+            <div class="stat-num">10+</div>
+            <div class="stat-caption">Languages</div>
+          </div>
+          <div>
+            <div class="stat-num">5</div>
+            <div class="stat-caption">Certificates</div>
+          </div>
+          <div>
+            <div class="stat-num">2</div>
+            <div class="stat-caption">ML projects</div>
+          </div>
+          <div>
+            <div class="stat-num">AWS</div>
+            <div class="stat-caption">&amp; Azure</div>
+          </div>
+        </div>
+      </div>
+      <div class="bento-card span-2">
+        <div class="bento-label">Focus areas</div>
+        <div class="chip-row">
+          <span class="chip vivid">Python</span>
+          <span class="chip vivid">Machine learning</span>
+          <span class="chip">React</span>
+          <span class="chip">Node.js</span>
+          <span class="chip">Docker</span>
+          <span class="chip">SQL</span>
+          <span class="chip">Tableau</span>
+          <span class="chip">Pandas</span>
+          <span class="chip">AWS</span>
+          <span class="chip">Power BI</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about-layout">
+    <div class="section-head reveal">
+      <p class="eyebrow">About me</p>
+      <h2 class="section-title">Code, data &amp; <em>impact</em></h2>
+    </div>
+    <div>
+      <div class="about-prose reveal">
+        <p>
+          I’m a 3rd-year B.Tech CSE student minoring in Data Science, equally at home writing Python ML models
+          and building React frontends. I’m drawn to problems where data can drive real-world impact — the kind
+          that affects how governments allocate welfare or how businesses see the future.
+        </p>
+        <p>
+          When I’m not coding, you’ll find me grinding DSA problems on LeetCode or picking apart the next technology
+          that caught my eye.
+        </p>
+      </div>
+      <aside class="about-aside reveal" aria-label="Quick facts">
+        <strong>Currently.</strong> Exploring ML, full-stack delivery, and datasets with public-good angles.
+        Open to internships, collaborations, and conversations about teams building thoughtful systems.
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Capabilities</p>
+      <h2 class="section-title">Technical <em>toolkit</em></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">⌨</div>
+        <h3>Languages</h3>
+        <ul class="skill-list">
+          <li>Python</li><li>SQL</li><li>JavaScript</li><li>C++</li>
+          <li>C</li><li>Bash</li><li>PowerShell</li><li>PHP</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">⚙</div>
+        <h3>Frameworks</h3>
+        <ul class="skill-list">
+          <li>React</li><li>Node.js</li><li>HTML/CSS</li><li>Bootstrap</li>
+          <li>REST APIs</li><li>ETL pipelines</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">◈</div>
+        <h3>Data &amp; ML</h3>
+        <ul class="skill-list">
+          <li>Pandas</li><li>NumPy</li><li>Scikit-learn</li><li>Matplotlib</li>
+          <li>Seaborn</li><li>EDA</li><li>Feature eng.</li><li>Power BI</li><li>Tableau</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">☁</div>
+        <h3>Tools &amp; cloud</h3>
+        <ul class="skill-list">
+          <li>AWS S3/EC2</li><li>Azure</li><li>Docker</li><li>Git/GitHub</li>
+          <li>Jupyter</li><li>MySQL</li><li>MongoDB</li><li>Linux</li><li>VS Code</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Selected work</p>
+      <h2 class="section-title">Projects I’ve <em>shipped</em></h2>
+    </div>
+    <div class="projects-stack">
+      <article class="project reveal">
+        <div class="project-index">01</div>
+        <div class="project-body">
+          <h3>Predictive analytics &amp; data modeling pipeline</h3>
+          <p class="project-meta">2025 · Machine learning</p>
+          <ul class="project-desc">
+            <li>Predictive pipeline with Python to analyze multi-country datasets</li>
+            <li>Linear &amp; multiple regression for trend forecasting and KPI identification</li>
+            <li>Exploratory data analysis with Matplotlib visualizations</li>
+            <li>Automated data cleaning — missing values, format standardization</li>
+          </ul>
+          <div class="project-foot">
+            <div class="chip-row">
+              <span class="chip vivid">Python</span>
+              <span class="chip vivid">Pandas</span>
+              <span class="chip">Scikit-learn</span>
+              <span class="chip">Matplotlib</span>
+            </div>
+            <a href="#" class="project-link">View details ↗</a>
+          </div>
+        </div>
+      </article>
+      <article class="project reveal">
+        <div class="project-index">02</div>
+        <div class="project-body">
+          <h3>Social welfare beneficiary analysis</h3>
+          <p class="project-meta">2025 · Data visualization</p>
+          <ul class="project-desc">
+            <li>Demographic distribution analysis of Indian welfare beneficiaries</li>
+            <li>Aadhaar &amp; mobile linkage gap analysis across states</li>
+            <li>IQR-based outlier detection for data integrity</li>
+            <li>State and district-level reports for program optimization</li>
+          </ul>
+          <div class="project-foot">
+            <div class="chip-row">
+              <span class="chip vivid">Python</span>
+              <span class="chip vivid">Seaborn</span>
+              <span class="chip">Matplotlib</span>
+            </div>
+            <a href="#" class="project-link">View details ↗</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Learning</p>
+      <h2 class="section-title">Training &amp; <em>growth</em></h2>
+    </div>
+    <div class="training-block reveal">
+      <div class="training-badge">DSA</div>
+      <div>
+        <h3>Lovely Professional University — Basic to Brilliance Bootcamp</h3>
+        <p>
+          Structured training in data structures &amp; algorithms covering arrays, linked lists, stacks, queues, trees,
+          graphs, sorting, searching, and recursion. Hands-on problem-solving through real-time coding exercises.
+        </p>
+        <div class="chip-row">
+          <span class="chip">C</span>
+          <span class="chip">C++</span>
+          <span class="chip">Java</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="certs">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Credentials</p>
+      <h2 class="section-title">Certifications &amp; <em>courses</em></h2>
+    </div>
+    <div class="cert-list reveal">
+      <div class="cert-row">
+        <div class="cert-main">
+          <div class="cert-ico">☁</div>
+          <div>
+            <div class="cert-name">Cloud computing</div>
+            <div class="cert-issuer">NPTEL</div>
+          </div>
+        </div>
+        <div class="cert-date">Nov 2025</div>
+      </div>
+      <div class="cert-row">
+        <div class="cert-main">
+          <div class="cert-ico">⬡</div>
+          <div>
+            <div class="cert-name">TCP/IP and advanced topics</div>
+            <div class="cert-issuer">Coursera</div>
+          </div>
+        </div>
+        <div class="cert-date">Dec 2024</div>
+      </div>
+      <div class="cert-row">
+        <div class="cert-main">
+          <div class="cert-ico">⇄</div>
+          <div>
+            <div class="cert-name">Fundamentals of network communication</div>
+            <div class="cert-issuer">Coursera</div>
+          </div>
+        </div>
+        <div class="cert-date">Nov 2024</div>
+      </div>
+      <div class="cert-row">
+        <div class="cert-main">
+          <div class="cert-ico">◎</div>
+          <div>
+            <div class="cert-name">The bits and bytes of computer networking</div>
+            <div class="cert-issuer">Coursera</div>
+          </div>
+        </div>
+        <div class="cert-date">Sep 2024</div>
+      </div>
+      <div class="cert-row">
+        <div class="cert-main">
+          <div class="cert-ico">▣</div>
+          <div>
+            <div class="cert-name">Introduction to hardware and operating systems</div>
+            <div class="cert-issuer">Coursera</div>
+          </div>
+        </div>
+        <div class="cert-date">Sep 2024</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Beyond tech</p>
+      <h2 class="section-title">Highlights &amp; <em>community</em></h2>
+    </div>
+    <div class="achieve-grid">
+      <div class="achieve-card reveal">
+        <span class="achieve-emoji">◆</span>
+        <strong>HackerRank badge</strong>
+        <p>Problem solving badge earned — demonstrating foundational logical reasoning and programming discipline.</p>
+      </div>
+      <div class="achieve-card reveal">
+        <span class="achieve-emoji">⚡</span>
+        <strong>Hackathon participant</strong>
+        <p>Multiple hackathons — collaborative problem-solving, rapid prototyping, and high-pressure solution development.</p>
+      </div>
+      <div class="achieve-card reveal">
+        <span class="achieve-emoji">◉</span>
+        <strong>Model United Nations</strong>
+        <p>Active MUN participant — strong communication, analytical reasoning, and structured diplomacy skills.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Karnvendra Singh · B.Tech CSE (Data Science minor)</span>
+    <span><a href="contact.html">Contact</a> · <a href="portfolio.html#about">About</a></span>
+  </div>
+</footer>
+
+<script>
+  // Theme toggle (dark/light) using CSS variables.
+  (function () {
+    const htmlEl = document.documentElement;
+    const themeToggle = document.getElementById('themeToggle');
+    const label = document.getElementById('themeToggleLabel');
+    if (!themeToggle) return;
+
+    function setTheme(theme) {
+      htmlEl.setAttribute('data-theme', theme);
+      if (label) label.textContent = theme === 'dark' ? 'Light' : 'Dark';
+    }
+
+    const saved = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initial = saved || (prefersDark ? 'dark' : 'light');
+    setTheme(initial);
+
+    themeToggle.addEventListener('click', () => {
+      const current = htmlEl.getAttribute('data-theme') || 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      localStorage.setItem('theme', next);
+      setTheme(next);
+    });
+  })();
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
